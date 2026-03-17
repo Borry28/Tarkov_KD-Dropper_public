@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Tarkov_KD-Dropper_public/Tarkov_KD-Dropper_public.vcxproj" Id="550da333-4098-4c5c-8568-2ea5a0ee316f" />
+</Solution>

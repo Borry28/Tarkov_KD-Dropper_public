@@ -1,0 +1,9 @@
+# Ignore x64, release, debug, .vs folders
+x64/
+release/
+debug/
+.vs/
+
+# Ignore ._imgui and ._x64
+._imgui/
+._x64/
