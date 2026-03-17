@@ -6,6 +6,9 @@ If you want a better user experience and more advanced automation, we also provi
 
 ![Tarkov KD Dropper UI](Tarkov_KD-Dropper_public/UI.png)
 
+## Confirmed working
+Last confirmed working date: 17/03/2026
+
 ## Features
 
 - Win32 desktop UI
