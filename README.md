@@ -4,7 +4,7 @@ Tarkov KD Dropper is a small Windows desktop tool for automating a simple death-
 
 If you want a better user experience and more advanced automation, we also provide other bots at https://tarkov.bot/.
 
-![Tarkov KD Dropper UI](Tarkov_KD-Dropper_public\UI.png)
+![Tarkov KD Dropper UI](Tarkov_KD-Dropper_public/UI.png)
 
 ## Features
 
