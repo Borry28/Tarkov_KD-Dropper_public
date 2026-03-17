@@ -6,8 +6,9 @@ If you want a better user experience and more advanced automation, we also provi
 
 ![Tarkov KD Dropper UI](Tarkov_KD-Dropper_public/UI.png)
 
-## Confirmed working
-Last confirmed working date: 17/03/2026
+## Updates
+Official release: 17/03/2026
+I will commit to keeping this repo updated for as long as I can, so fewer people avoid getting scammed for buying shitty overpriced KD droppers 
 
 ## Features
 
