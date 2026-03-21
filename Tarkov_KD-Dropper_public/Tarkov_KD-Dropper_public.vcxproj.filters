@@ -66,5 +66,11 @@
     <Image Include="..\..\..\..\Desktop\images\favicon.png">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="favicon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tarkov_KD-Dropper_public.aps" />
   </ItemGroup>
 </Project>

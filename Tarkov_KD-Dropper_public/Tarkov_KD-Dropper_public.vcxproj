@@ -167,7 +167,11 @@
   <ItemGroup>
     <Image Include="..\..\..\..\Desktop\images\favicon.png" />
     <Image Include="bitmap1.bmp" />
+    <Image Include="favicon.png" />
     <Image Include="Tarkov_KD-Dropper_public.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tarkov_KD-Dropper_public.aps" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
