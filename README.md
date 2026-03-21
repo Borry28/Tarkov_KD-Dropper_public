@@ -24,18 +24,52 @@ I will commit to keeping this repo updated for as long as I can, so fewer people
 ## Requirements
 
 - Windows
+- Git
+- CMake
 - A 1920x1080 display, or matching coordinate adjustments
 - Escape from Tarkov already installed and running
 - In-game keybinds aligned with the app settings
-- Visual Studio C++ build tools
-- OpenCV configured for the project, for example through `vcpkg`
+- Visual Studio 2022 with Desktop development with C++
+- OpenCV (installed with `vcpkg`, steps below)
 
 ## Build
 
+### 1. Install vcpkg
+
+Open a Developer PowerShell (or normal PowerShell) and run:
+
+```powershell
+cd $env:USERPROFILE\source\repos
+git clone https://github.com/microsoft/vcpkg.git
+cd vcpkg
+.\bootstrap-vcpkg.bat
+```
+
+### 2. Integrate vcpkg with Visual Studio
+
+Run:
+
+```powershell
+.\vcpkg integrate install
+```
+
+(This might take a few minutes)
+
+### 3. Install OpenCV (static, x64)
+
+Run:
+
+```powershell
+.\vcpkg install opencv:x64-windows-static
+```
+
+### 4. Build the project in Visual Studio
+
 1. Open the project in Visual Studio.
-2. Make sure OpenCV include and library paths are configured.
-3. Select `Release | x64` or your preferred build configuration.
-4. Build and run the project.
+2. Open `Tarkov_KD-Dropper_public.slnx`.
+3. Select `Release | x64`.
+4. Build the solution.
+5. Run the app from Visual Studio or from the output folder.
 
 ## Usage
 
